@@ -1,0 +1,57 @@
+.nav-group-title
+  font-variant: small-caps
+.pane
+  border-color: $default-border-color
+.sidebar
+  border-right: none
+  &.pane-sm
+    max-width: 300px
+    min-width: 300px
+.list-group
+  .list-group-item
+    padding: 8px
+    border-bottom: $default-border
+    .media-object
+      margin-top: 0
+    .app-icon
+      font-size: 2.8em
+      padding: 0px
+      animation-duration: 1s
+      &.red
+        color: $grapefruit-light
+      &.green
+        color: $mint-light
+      &.yellow
+        color: $cream-can
+    .app-title
+      padding-left: 8px
+    .app-details
+      padding-left: 8px
+      margin-top: 4px
+    img
+      padding-top: 4px
+      width: 200px
+.toolbar
+  &:not(.toolbar-footer)
+    padding-top: 3px
+    min-height: 56px
+    border-bottom: $default-border
+    border-color: $mediumgray-dark
+.btn
+  .fa
+    color: #737475
+  &.btn-mini
+    line-height: 0.9em
+.btn-group
+  transition: $transition
+.toolbar-header
+  .title
+    -webkit-app-region: drag
+    img
+      height: 12px
+      margin: 2px 8px
+.label
+  border-color: $default-border-color
+  padding: 2px 4px
+  background-color: darken($lightgray-light, 2)
+  border-radius: 2px

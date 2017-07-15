@@ -1,0 +1,30 @@
+{
+  "name": "leverton-dev",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "cross-env": "^5.0.1",
+    "custom-react-scripts": "0.0.23",
+    "electron": "^1.6.11",
+    "electron-devtools-installer": "^2.2.0",
+    "electron-settings": "^3.1.1",
+    "electron-window-state": "^4.1.1",
+    "foreman": "^2.0.0",
+    "lodash": "^4.17.4",
+    "mobx": "^3.2.1",
+    "mobx-react": "^4.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-loader": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "web-dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "cross-env NODE_ENV=development electron .",
+    "dev": "nf start"
+  }
+}
